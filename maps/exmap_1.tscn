@@ -1,12 +1,12 @@
 [gd_scene load_steps=9 format=3 uid="uid://bsivvnhh35cwo"]
 
 [ext_resource type="Shader" path="res://shaders/background.gdshader" id="1_bqu02"]
-[ext_resource type="Texture2D" uid="uid://c6o3fx2rj4wly" path="res://assets/Background/Green.png" id="1_wh0im"]
+[ext_resource type="Texture2D" uid="uid://c6o3fx2rj4wly" path="res://assets/background/green.png" id="1_wh0im"]
 [ext_resource type="TileSet" uid="uid://b13fwaevm0kgp" path="res://resources/tilesets/terrain.tres" id="3_ovovr"]
-[ext_resource type="PackedScene" uid="uid://b0rc2vbqc1866" path="res://scenes/traps/spikes.tscn" id="4_lj31t"]
-[ext_resource type="PackedScene" uid="uid://dordy3866ha6t" path="res://scenes/checkpoints/checkpoint.tscn" id="5_i1c15"]
-[ext_resource type="PackedScene" uid="uid://dlwky5gpf67io" path="res://scenes/checkpoints/start.tscn" id="6_a8r6o"]
-[ext_resource type="PackedScene" uid="uid://bxx3wt5bjhcqu" path="res://scenes/checkpoints/end.tscn" id="7_1llqb"]
+[ext_resource type="PackedScene" uid="uid://b0rc2vbqc1866" path="res://entities/traps/spikes/spikes.tscn" id="4_lj31t"]
+[ext_resource type="PackedScene" uid="uid://dordy3866ha6t" path="res://entities/checkpoints/checkpoint/checkpoint.tscn" id="5_i1c15"]
+[ext_resource type="PackedScene" uid="uid://dlwky5gpf67io" path="res://entities/checkpoints/start/start.tscn" id="6_a8r6o"]
+[ext_resource type="PackedScene" uid="uid://bxx3wt5bjhcqu" path="res://entities/checkpoints/end/end.tscn" id="7_1llqb"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_g0fpx"]
 shader = ExtResource("1_bqu02")

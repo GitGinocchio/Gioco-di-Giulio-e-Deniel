@@ -1,15 +1,14 @@
-[gd_scene load_steps=3 format=3 uid="uid://bifhkrmpb4xal"]
+[gd_scene load_steps=4 format=3 uid="uid://bifhkrmpb4xal"]
 
-[ext_resource type="PackedScene" uid="uid://wng650ncbmgb" path="res://maps/map_3.tscn" id="2_apndr"]
 [ext_resource type="PackedScene" uid="uid://b3jceichgrcoh" path="res://entities/player/player.tscn" id="2_e46br"]
+[ext_resource type="PackedScene" uid="uid://c07ud6c2qk6wj" path="res://maps/map_1_test.tscn" id="2_u7t1x"]
+[ext_resource type="PackedScene" uid="uid://d218tnymjh7ds" path="res://entities/collectables/fruit/fruit.tscn" id="3_3m44l"]
 
 [node name="Game" type="Node2D"]
 
 [node name="Character" parent="." instance=ExtResource("2_e46br")]
 unique_name_in_owner = true
 position = Vector2(-578, -323)
-
-[node name="Map3" parent="." instance=ExtResource("2_apndr")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 visible = false
@@ -18,3 +17,8 @@ enabled = false
 position_smoothing_enabled = true
 position_smoothing_speed = 2.0
 rotation_smoothing_enabled = true
+
+[node name="Map1_test" parent="." instance=ExtResource("2_u7t1x")]
+
+[node name="Fruit" parent="." instance=ExtResource("3_3m44l")]
+position = Vector2(1108, 388)

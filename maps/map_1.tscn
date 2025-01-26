@@ -1,14 +1,14 @@
 [gd_scene load_steps=11 format=4 uid="uid://bbl6vpco0ttrs"]
 
 [ext_resource type="Shader" path="res://shaders/backgroundmenu.gdshader" id="1_v7h2f"]
-[ext_resource type="Texture2D" uid="uid://c6ggkyg5y2lj4" path="res://assets/Background/Blue.png" id="2_t7ad7"]
+[ext_resource type="Texture2D" uid="uid://c6ggkyg5y2lj4" path="res://assets/background/blue.png" id="2_t7ad7"]
 [ext_resource type="TileSet" uid="uid://b13fwaevm0kgp" path="res://resources/tilesets/terrain.tres" id="3_ovovr"]
 [ext_resource type="TileSet" uid="uid://cbacrf2yeh612" path="res://resources/tilesets/terrain_no_collisions.tres" id="3_ypy3y"]
-[ext_resource type="PackedScene" uid="uid://d218tnymjh7ds" path="res://scenes/collectables/fruit.tscn" id="5_psuds"]
-[ext_resource type="PackedScene" uid="uid://dlwky5gpf67io" path="res://scenes/checkpoints/start.tscn" id="6_a8r6o"]
-[ext_resource type="PackedScene" uid="uid://dordy3866ha6t" path="res://scenes/checkpoints/checkpoint.tscn" id="7_63161"]
-[ext_resource type="PackedScene" uid="uid://bxx3wt5bjhcqu" path="res://scenes/checkpoints/end.tscn" id="8_midpt"]
-[ext_resource type="PackedScene" uid="uid://bjuuf3xbsrk8f" path="res://scenes/traps/fan.tscn" id="11_mjryf"]
+[ext_resource type="PackedScene" uid="uid://d218tnymjh7ds" path="res://entities/collectables/fruit/fruit.tscn" id="5_psuds"]
+[ext_resource type="PackedScene" uid="uid://dlwky5gpf67io" path="res://entities/checkpoints/start/start.tscn" id="6_a8r6o"]
+[ext_resource type="PackedScene" uid="uid://dordy3866ha6t" path="res://entities/checkpoints/checkpoint/checkpoint.tscn" id="7_63161"]
+[ext_resource type="PackedScene" uid="uid://bxx3wt5bjhcqu" path="res://entities/checkpoints/end/end.tscn" id="8_midpt"]
+[ext_resource type="PackedScene" uid="uid://bjuuf3xbsrk8f" path="res://entities/traps/fan/fan.tscn" id="11_mjryf"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_aifu6"]
 shader = ExtResource("1_v7h2f")

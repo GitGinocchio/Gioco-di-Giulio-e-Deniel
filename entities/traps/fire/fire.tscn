@@ -1,9 +1,9 @@
 [gd_scene load_steps=15 format=3 uid="uid://crm3npx2un8fe"]
 
-[ext_resource type="Texture2D" uid="uid://cq6p3dccgaon4" path="res://assets/Traps/Fire/Off.png" id="1_3w0iy"]
-[ext_resource type="Texture2D" uid="uid://k5g5x3yw6ajb" path="res://assets/Traps/Fire/Hit (16x32).png" id="1_xth6m"]
-[ext_resource type="Script" path="res://scripts/Fire.gd" id="1_yy677"]
-[ext_resource type="Texture2D" uid="uid://b0r07rn2v4ohp" path="res://assets/Traps/Fire/On (16x32).png" id="3_f1oju"]
+[ext_resource type="Texture2D" uid="uid://cq6p3dccgaon4" path="res://assets/traps/fire/off.png" id="1_3w0iy"]
+[ext_resource type="Texture2D" uid="uid://k5g5x3yw6ajb" path="res://assets/traps/fire/hit (16x32).png" id="1_xth6m"]
+[ext_resource type="Script" path="res://entities/traps/fire/fire.gd" id="1_yy677"]
+[ext_resource type="Texture2D" uid="uid://b0r07rn2v4ohp" path="res://assets/traps/fire/on (16x32).png" id="3_f1oju"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_chgj0"]
 atlas = ExtResource("1_xth6m")

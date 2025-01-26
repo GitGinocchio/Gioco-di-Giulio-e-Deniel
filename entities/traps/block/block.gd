@@ -1,6 +1,6 @@
 extends StaticBody2D
 
-var broken_block = preload("res://scenes/traps/block/broken_block.tscn")
+var broken_block = preload("res://entities/traps/block/broken/broken.tscn")
 
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
 

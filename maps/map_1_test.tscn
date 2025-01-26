@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=4 uid="uid://c07ud6c2qk6wj"]
+[gd_scene load_steps=14 format=4 uid="uid://c07ud6c2qk6wj"]
 
 [ext_resource type="Shader" path="res://shaders/backgroundmenu.gdshader" id="1_0affd"]
 [ext_resource type="Texture2D" uid="uid://c6ggkyg5y2lj4" path="res://assets/background/blue.png" id="2_drdhi"]
@@ -10,17 +10,23 @@
 [ext_resource type="PackedScene" uid="uid://bjuuf3xbsrk8f" path="res://entities/traps/fan/fan.tscn" id="9_fp08e"]
 [ext_resource type="PackedScene" uid="uid://b0rc2vbqc1866" path="res://entities/traps/spikes/spikes.tscn" id="9_koobq"]
 [ext_resource type="PackedScene" uid="uid://dv4os5gkk0p7d" path="res://entities/enemies/bat/bat.tscn" id="9_v3ikb"]
-[ext_resource type="PackedScene" uid="uid://clnfvaftln1r2" path="res://entities/enemies/angrypig/angrypig.tscn" id="10_1u6c0"]
+[ext_resource type="PackedScene" uid="uid://nak3ynf8wawh" path="res://entities/enemies/bluebird/bluebird.tscn" id="11_6s53q"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_aifu6"]
 shader = ExtResource("1_0affd")
 
+[sub_resource type="Curve2D" id="Curve2D_1pg82"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 454, 140, 82.8536, -97.9989, -82.8536, 97.9989, 67, 49, 13.3635, 42.7631, -13.3635, -42.7631, -269, -10)
+}
+point_count = 3
+
 [node name="Map1_test" type="Node2D"]
 
 [node name="Backgrounds" type="Node2D" parent="."]
+visible = false
 
 [node name="Background" type="TextureRect" parent="Backgrounds"]
-visible = false
 texture_repeat = 3
 material = SubResource("ShaderMaterial_aifu6")
 offset_right = 1183.0
@@ -62,20 +68,20 @@ position = Vector2(519, 413)
 
 [node name="Traps" type="Node2D" parent="."]
 
+[node name="Spike" parent="Traps" instance=ExtResource("9_koobq")]
+position = Vector2(759, 420)
+
+[node name="Fan" parent="Traps" instance=ExtResource("9_fp08e")]
+position = Vector2(2059, 440)
+
 [node name="ArrowBoost" parent="Traps" instance=ExtResource("7_umwln")]
 position = Vector2(1591, 394)
 
 [node name="Enemies" type="Node2D" parent="."]
 
-[node name="AngryPig" parent="Enemies" instance=ExtResource("10_1u6c0")]
-position = Vector2(1273, 413)
+[node name="BlueBird" parent="Enemies" instance=ExtResource("11_6s53q")]
+position = Vector2(987, 267)
+curve = SubResource("Curve2D_1pg82")
 
 [node name="Bat" parent="Enemies" instance=ExtResource("9_v3ikb")]
 position = Vector2(1606, 80)
-
-[node name="Spike" parent="." instance=ExtResource("9_koobq")]
-position = Vector2(759, 420)
-
-[node name="Fan" parent="Spike" instance=ExtResource("9_fp08e")]
-position = Vector2(325, 5)
-scale = Vector2(0.625, 0.625)

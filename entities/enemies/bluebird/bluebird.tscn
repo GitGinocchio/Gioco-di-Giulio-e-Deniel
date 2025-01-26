@@ -1,41 +1,10 @@
 [gd_scene load_steps=20 format=3 uid="uid://nak3ynf8wawh"]
 
+[ext_resource type="Script" path="res://entities/enemies/bluebird/bluebird.gd" id="1_7ijtb"]
 [ext_resource type="Texture2D" uid="uid://bdo5fmb28g8rb" path="res://assets/enemies/bluebird/flying (32x32).png" id="1_syp77"]
 [ext_resource type="Texture2D" uid="uid://o4umldcsqjll" path="res://assets/enemies/bluebird/hit (32x32).png" id="2_qgq0d"]
 
-[sub_resource type="GDScript" id="GDScript_h66mj"]
-script/source = "extends Path2D
-
-
-@onready var path: PathFollow2D = $Path
-@onready var body: CharacterBody2D = %Character
-@onready var sprite: AnimatedSprite2D = %Sprite
-
-
-@export var Speed : float = 0.5
-
-var direction = 1
-
-# Called when the node enters the scene tree for the first time.
-func _ready() -> void:
-	pass # Replace with function body.
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
-	
-func _physics_process(delta: float) -> void:
-	path.progress += direction * Speed
-	if path.progress_ratio >= 1 or path.progress_ratio <= 0:
-		direction = -direction
-	
-	sprite.flip_h = true if direction == 1 else false
-		
-	#body.move_and_slide()
-"
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_54fve"]
-size = Vector2(22, 16)
+[sub_resource type="CircleShape2D" id="CircleShape2D_aq537"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yw6qm"]
 atlas = ExtResource("1_syp77")
@@ -149,7 +118,7 @@ animations = [{
 }]
 
 [node name="BlueBird" type="Path2D"]
-script = SubResource("GDScript_h66mj")
+script = ExtResource("1_7ijtb")
 
 [node name="Path" type="PathFollow2D" parent="."]
 rotates = false
@@ -163,13 +132,13 @@ collision_layer = 16384
 collision_mask = 4609
 
 [node name="Collision" type="CollisionShape2D" parent="Path/Character"]
-position = Vector2(0.999999, 2)
-rotation = -3.14159
-shape = SubResource("RectangleShape2D_54fve")
+position = Vector2(8.88178e-14, 0)
+shape = SubResource("CircleShape2D_aq537")
+one_way_collision = true
 
 [node name="Sprite" type="AnimatedSprite2D" parent="Path/Character"]
 unique_name_in_owner = true
 sprite_frames = SubResource("SpriteFrames_ugp6b")
 animation = &"flying"
 autoplay = "flying"
-frame_progress = 0.815508
+frame = 1
