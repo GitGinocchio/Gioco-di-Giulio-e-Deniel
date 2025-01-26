@@ -1,9 +1,8 @@
-[gd_scene load_steps=16 format=3 uid="uid://b3jceichgrcoh"]
+[gd_scene load_steps=15 format=3 uid="uid://b3jceichgrcoh"]
 
-[ext_resource type="Script" path="res://scripts/Character.gd" id="1_nxohu"]
+[ext_resource type="Script" path="res://entities/player/scripts/character.gd" id="1_nxohu"]
 [ext_resource type="SpriteFrames" uid="uid://bwcre7vjfwoci" path="res://resources/characters/ninja_frog.tres" id="2_dlexo"]
-[ext_resource type="Texture2D" uid="uid://d4ha024dxygwe" path="res://assets/Other/Dust Particle.png" id="9_0gcq8"]
-[ext_resource type="Script" path="res://scripts/DustParticles.gd" id="10_yrkyl"]
+[ext_resource type="Texture2D" uid="uid://d4ha024dxygwe" path="res://assets/other/dust particle.png" id="9_0gcq8"]
 
 [sub_resource type="Curve" id="Curve_5jln8"]
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.129528), 0.0, 0.0, 0, 0]
@@ -147,14 +146,15 @@ collision_layer = 512
 collision_mask = 32257
 script = ExtResource("1_nxohu")
 Randomize = true
-GRAVITY = 1200
+ENABLE_DOUBLE_JUMP = true
+ENABLE_WALL_JUMP = true
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
 position = Vector2(3.8147e-06, -1.90735e-06)
 scale = Vector2(2.5, 2.5)
 sprite_frames = ExtResource("2_dlexo")
-animation = &"jump"
+animation = &"idle"
 
 [node name="GPUParticles2D" type="GPUParticles2D" parent="."]
 position = Vector2(0, 40)
@@ -165,7 +165,6 @@ texture = ExtResource("9_0gcq8")
 explosiveness = 1.0
 randomness = 1.0
 draw_order = 0
-script = ExtResource("10_yrkyl")
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 position = Vector2(-1.90735e-06, 8)

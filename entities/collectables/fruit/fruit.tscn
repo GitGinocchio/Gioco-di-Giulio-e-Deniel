@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://d218tnymjh7ds"]
 
-[ext_resource type="Script" path="res://scripts/Apple.gd" id="1_uvgcn"]
+[ext_resource type="Script" path="res://entities/collectables/fruit/scripts/fruit.gd" id="1_uvgcn"]
 [ext_resource type="SpriteFrames" uid="uid://51kb4a1ab35q" path="res://resources/collectables/apple.tres" id="2_7slq3"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_c7xo2"]

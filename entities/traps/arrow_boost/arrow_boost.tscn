@@ -1,8 +1,8 @@
 [gd_scene load_steps=20 format=3 uid="uid://w43vjkp6cox5"]
 
-[ext_resource type="Texture2D" uid="uid://bp2noh5ockno" path="res://assets/Traps/Arrow/Hit (18x18).png" id="1_elute"]
-[ext_resource type="Script" path="res://scripts/arrow_boost.gd" id="1_mh2yl"]
-[ext_resource type="Texture2D" uid="uid://bf30fbx51sxa1" path="res://assets/Traps/Arrow/Idle (18x18).png" id="2_cpxis"]
+[ext_resource type="Texture2D" uid="uid://bp2noh5ockno" path="res://assets/traps/arrow/hit (18x18).png" id="1_elute"]
+[ext_resource type="Script" path="res://entities/traps/arrow_boost/arrow_boost.gd" id="1_mh2yl"]
+[ext_resource type="Texture2D" uid="uid://bf30fbx51sxa1" path="res://assets/traps/arrow/idle (18x18).png" id="2_cpxis"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1lvsa"]
 

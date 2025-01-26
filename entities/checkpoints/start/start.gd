@@ -2,9 +2,10 @@ extends Area2D
 
 @onready var startPosition = $StartPosition
 @onready var sprite = $AnimatedSprite2D
+@onready var player = get_tree().get_nodes_in_group("Player")[0]
+
 
 func _ready() -> void:
-	var player = get_tree().get_nodes_in_group("Player")[0]
 	player.spawn = startPosition.global_position
 	player.current_spawn = player.spawn
 	player.global_position = player.current_spawn

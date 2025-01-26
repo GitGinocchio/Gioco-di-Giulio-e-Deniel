@@ -1,12 +1,12 @@
 [gd_scene load_steps=14 format=3 uid="uid://cddbk8rjg3p6g"]
 
-[ext_resource type="Script" path="res://scripts/Menu.gd" id="1_8dh26"]
+[ext_resource type="Script" path="res://menu/mainmenu/mainmenu.gd" id="1_8dh26"]
 [ext_resource type="Shader" path="res://shaders/background.gdshader" id="2_kwnql"]
-[ext_resource type="Texture2D" uid="uid://c6ggkyg5y2lj4" path="res://assets/Background/Blue.png" id="3_oc52s"]
-[ext_resource type="PackedScene" uid="uid://b3jceichgrcoh" path="res://scenes/character/character.tscn" id="3_ywd4b"]
+[ext_resource type="Texture2D" uid="uid://c6ggkyg5y2lj4" path="res://assets/background/blue.png" id="3_oc52s"]
+[ext_resource type="PackedScene" uid="uid://b3jceichgrcoh" path="res://entities/player/player.tscn" id="3_ywd4b"]
 [ext_resource type="SpriteFrames" uid="uid://bwcre7vjfwoci" path="res://resources/characters/ninja_frog.tres" id="4_n43hx"]
-[ext_resource type="Texture2D" uid="uid://47fjw58ittae" path="res://assets/Background/Yellow.png" id="4_xcm85"]
-[ext_resource type="Texture2D" uid="uid://743hxlm2q8td" path="res://assets/Background/Pink.png" id="5_thwdb"]
+[ext_resource type="Texture2D" uid="uid://47fjw58ittae" path="res://assets/background/yellow.png" id="4_xcm85"]
+[ext_resource type="Texture2D" uid="uid://743hxlm2q8td" path="res://assets/background/pink.png" id="5_thwdb"]
 [ext_resource type="TileSet" uid="uid://b13fwaevm0kgp" path="res://resources/tilesets/terrain.tres" id="6_byatt"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_nx4sh"]

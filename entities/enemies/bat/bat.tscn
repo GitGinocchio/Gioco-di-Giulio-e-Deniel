@@ -1,12 +1,12 @@
 [gd_scene load_steps=58 format=3 uid="uid://dv4os5gkk0p7d"]
 
-[ext_resource type="Texture2D" uid="uid://bleepaotelaee" path="res://assets/Enemies/Bat/Hit (46x30).png" id="1_hj2tl"]
-[ext_resource type="Texture2D" uid="uid://c75cyv5kx6fg0" path="res://assets/Enemies/Bat/Flying (46x30).png" id="1_ibjyf"]
-[ext_resource type="Texture2D" uid="uid://dl121k5ffq8bs" path="res://assets/Enemies/Bat/Ceiling In (46x30).png" id="1_mvvb3"]
-[ext_resource type="Script" path="res://scripts/bat.gd" id="1_sb4nl"]
-[ext_resource type="Texture2D" uid="uid://15rb20m4ee2e" path="res://assets/Enemies/Bat/Ceiling Out (46x30).png" id="2_8nee6"]
-[ext_resource type="Texture2D" uid="uid://dkw7xn687cmen" path="res://assets/Enemies/Bat/Idle (46x30).png" id="2_56d07"]
-[ext_resource type="Texture2D" uid="uid://srha6hva1n44" path="res://assets/Main Characters/Desappearing (96x96).png" id="4_dj4q3"]
+[ext_resource type="Texture2D" uid="uid://bleepaotelaee" path="res://assets/enemies/bat/hit (46x30).png" id="1_hj2tl"]
+[ext_resource type="Texture2D" uid="uid://c75cyv5kx6fg0" path="res://assets/enemies/bat/flying (46x30).png" id="1_ibjyf"]
+[ext_resource type="Texture2D" uid="uid://dl121k5ffq8bs" path="res://assets/enemies/bat/ceiling in (46x30).png" id="1_mvvb3"]
+[ext_resource type="Script" path="res://entities/enemies/bat/bat.gd" id="1_sb4nl"]
+[ext_resource type="Texture2D" uid="uid://15rb20m4ee2e" path="res://assets/enemies/bat/ceiling out (46x30).png" id="2_8nee6"]
+[ext_resource type="Texture2D" uid="uid://dkw7xn687cmen" path="res://assets/enemies/bat/idle (46x30).png" id="2_56d07"]
+[ext_resource type="Texture2D" uid="uid://srha6hva1n44" path="res://assets/main characters/desappearing (96x96).png" id="4_dj4q3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b1lnm"]
 atlas = ExtResource("1_mvvb3")

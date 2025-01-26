@@ -1,6 +1,6 @@
 extends GPUParticles2D
 
-@onready var character = $'..'
+@onready var character = get_tree().get_nodes_in_group("Player")[0]
 
 var last_animation
 

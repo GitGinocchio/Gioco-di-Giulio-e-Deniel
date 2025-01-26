@@ -13,6 +13,7 @@ extends CharacterBody2D
 @onready var PCR_RayCast: RayCast2D = $RayCasts/PlayerCloseRight
 @onready var PCT_RayCast: RayCast2D = $RayCasts/PlayerCloseTop
 
+
 @export var GRAVITY : int = 980
 @export var speed : float = 50.0
 @export var angry_speed : float = 150.0

@@ -1,9 +1,9 @@
 [gd_scene load_steps=21 format=3 uid="uid://djmc4dtlxkjad"]
 
-[ext_resource type="Texture2D" uid="uid://vssrcx48fna5" path="res://assets/Traps/Falling Platforms/Off.png" id="1_7052m"]
-[ext_resource type="Script" path="res://scripts/falling_platform.gd" id="1_wq63j"]
-[ext_resource type="Texture2D" uid="uid://dxx6jenxyuvt" path="res://assets/Traps/Falling Platforms/On (32x10).png" id="2_akvb4"]
-[ext_resource type="Texture2D" uid="uid://d4ha024dxygwe" path="res://assets/Other/Dust Particle.png" id="4_bnbkq"]
+[ext_resource type="Texture2D" uid="uid://vssrcx48fna5" path="res://assets/traps/falling platforms/off.png" id="1_7052m"]
+[ext_resource type="Script" path="res://entities/traps/falling_platform/falling_platform.gd" id="1_wq63j"]
+[ext_resource type="Texture2D" uid="uid://dxx6jenxyuvt" path="res://assets/traps/falling platforms/on (32x10).png" id="2_akvb4"]
+[ext_resource type="Texture2D" uid="uid://d4ha024dxygwe" path="res://assets/other/dust particle.png" id="4_bnbkq"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2hh7p"]
 atlas = ExtResource("2_akvb4")

@@ -1,14 +1,14 @@
 [gd_resource type="SpriteFrames" load_steps=67 format=3 uid="uid://dt2leryv5v4e7"]
 
-[ext_resource type="Texture2D" uid="uid://c454sfqhq4xhx" path="res://assets/Main Characters/Appearing (96x96).png" id="1_d1vq8"]
-[ext_resource type="Texture2D" uid="uid://srha6hva1n44" path="res://assets/Main Characters/Desappearing (96x96).png" id="2_7nh8k"]
-[ext_resource type="Texture2D" uid="uid://qubvqxtspesj" path="res://assets/Main Characters/Mask Dude/Double Jump (32x32).png" id="3_p1rb1"]
-[ext_resource type="Texture2D" uid="uid://bo8sdy76jhl0c" path="res://assets/Main Characters/Mask Dude/Fall (32x32).png" id="4_de8ku"]
-[ext_resource type="Texture2D" uid="uid://biw2ldoo5dooi" path="res://assets/Main Characters/Mask Dude/Hit (32x32).png" id="5_7f17u"]
-[ext_resource type="Texture2D" uid="uid://dsdipluy0a1ka" path="res://assets/Main Characters/Mask Dude/Idle (32x32).png" id="6_8ypmo"]
-[ext_resource type="Texture2D" uid="uid://bmu6d4yvde4lv" path="res://assets/Main Characters/Mask Dude/Jump (32x32).png" id="7_oybpg"]
-[ext_resource type="Texture2D" uid="uid://op3hb7unj2fs" path="res://assets/Main Characters/Mask Dude/Run (32x32).png" id="8_vmhjo"]
-[ext_resource type="Texture2D" uid="uid://buxr2ccii0sy1" path="res://assets/Main Characters/Mask Dude/Wall Jump (32x32).png" id="9_2rurr"]
+[ext_resource type="Texture2D" uid="uid://c454sfqhq4xhx" path="res://assets/main characters/appearing (96x96).png" id="1_d1vq8"]
+[ext_resource type="Texture2D" uid="uid://srha6hva1n44" path="res://assets/main characters/desappearing (96x96).png" id="2_7nh8k"]
+[ext_resource type="Texture2D" uid="uid://qubvqxtspesj" path="res://assets/main characters/mask dude/double jump (32x32).png" id="3_p1rb1"]
+[ext_resource type="Texture2D" uid="uid://bo8sdy76jhl0c" path="res://assets/main characters/mask dude/fall (32x32).png" id="4_de8ku"]
+[ext_resource type="Texture2D" uid="uid://biw2ldoo5dooi" path="res://assets/main characters/mask dude/hit (32x32).png" id="5_7f17u"]
+[ext_resource type="Texture2D" uid="uid://dsdipluy0a1ka" path="res://assets/main characters/mask dude/idle (32x32).png" id="6_8ypmo"]
+[ext_resource type="Texture2D" uid="uid://bmu6d4yvde4lv" path="res://assets/main characters/mask dude/jump (32x32).png" id="7_oybpg"]
+[ext_resource type="Texture2D" uid="uid://op3hb7unj2fs" path="res://assets/main characters/mask dude/run (32x32).png" id="8_vmhjo"]
+[ext_resource type="Texture2D" uid="uid://buxr2ccii0sy1" path="res://assets/main characters/mask dude/wall jump (32x32).png" id="9_2rurr"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5e3gq"]
 atlas = ExtResource("1_d1vq8")

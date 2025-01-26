@@ -1,9 +1,9 @@
 [gd_scene load_steps=17 format=3 uid="uid://cosx0avayxlyh"]
 
-[ext_resource type="Script" path="res://scripts/Saw.gd" id="1_62w7m"]
-[ext_resource type="Texture2D" uid="uid://d1wm8ggok886c" path="res://assets/Traps/Saw/Off.png" id="1_vg2af"]
-[ext_resource type="Texture2D" uid="uid://d1dltihx2vskf" path="res://assets/Traps/Saw/On (38x38).png" id="2_qrsgu"]
-[ext_resource type="Texture2D" uid="uid://dmcsvoysy01k7" path="res://assets/Traps/Saw/Chain.png" id="3_0gfyb"]
+[ext_resource type="Script" path="res://entities/traps/saw/saw.gd" id="1_62w7m"]
+[ext_resource type="Texture2D" uid="uid://d1wm8ggok886c" path="res://assets/traps/saw/off.png" id="1_vg2af"]
+[ext_resource type="Texture2D" uid="uid://d1dltihx2vskf" path="res://assets/traps/saw/on (38x38).png" id="2_qrsgu"]
+[ext_resource type="Texture2D" uid="uid://dmcsvoysy01k7" path="res://assets/traps/saw/chain.png" id="3_0gfyb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xmepp"]
 atlas = ExtResource("3_0gfyb")

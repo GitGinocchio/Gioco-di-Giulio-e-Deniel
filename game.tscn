@@ -1,14 +1,15 @@
 [gd_scene load_steps=3 format=3 uid="uid://bifhkrmpb4xal"]
 
-[ext_resource type="PackedScene" uid="uid://c07ud6c2qk6wj" path="res://maps/map_1_test.tscn" id="1_lkqa1"]
+[ext_resource type="PackedScene" uid="uid://wng650ncbmgb" path="res://maps/map_3.tscn" id="2_apndr"]
 [ext_resource type="PackedScene" uid="uid://b3jceichgrcoh" path="res://entities/player/player.tscn" id="2_e46br"]
 
 [node name="Game" type="Node2D"]
 
-[node name="Map1_test" parent="." instance=ExtResource("1_lkqa1")]
-
 [node name="Character" parent="." instance=ExtResource("2_e46br")]
-script = null
+unique_name_in_owner = true
+position = Vector2(-578, -323)
+
+[node name="Map3" parent="." instance=ExtResource("2_apndr")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 visible = false

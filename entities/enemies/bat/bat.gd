@@ -46,7 +46,6 @@ func _on_trigger_area_body_exited(body: Node2D) -> void:
 	if body == character and flying:
 		character = null
 		coming_back = true
-		
 
 func _physics_process(delta: float) -> void:
 	if died:

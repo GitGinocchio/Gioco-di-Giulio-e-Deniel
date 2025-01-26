@@ -1,14 +1,14 @@
 [gd_resource type="SpriteFrames" load_steps=67 format=3 uid="uid://20vdqm4gd08f"]
 
-[ext_resource type="Texture2D" uid="uid://c454sfqhq4xhx" path="res://assets/Main Characters/Appearing (96x96).png" id="1_tpa7k"]
-[ext_resource type="Texture2D" uid="uid://srha6hva1n44" path="res://assets/Main Characters/Desappearing (96x96).png" id="2_ihlqd"]
-[ext_resource type="Texture2D" uid="uid://blyr281uesoda" path="res://assets/Main Characters/Virtual Guy/Double Jump (32x32).png" id="3_pfw6k"]
-[ext_resource type="Texture2D" uid="uid://dm2w0cg2h6f18" path="res://assets/Main Characters/Virtual Guy/Fall (32x32).png" id="4_5yyl0"]
-[ext_resource type="Texture2D" uid="uid://kjc5nadks4xc" path="res://assets/Main Characters/Virtual Guy/Hit (32x32).png" id="5_bfs75"]
-[ext_resource type="Texture2D" uid="uid://7fxk3mctckd4" path="res://assets/Main Characters/Virtual Guy/Idle (32x32).png" id="6_6w2sy"]
-[ext_resource type="Texture2D" uid="uid://deb5j4rqje20r" path="res://assets/Main Characters/Virtual Guy/Jump (32x32).png" id="7_5oarf"]
-[ext_resource type="Texture2D" uid="uid://dbenac5ta30k" path="res://assets/Main Characters/Virtual Guy/Run (32x32).png" id="8_exgrg"]
-[ext_resource type="Texture2D" uid="uid://bkpayof2wa3h2" path="res://assets/Main Characters/Virtual Guy/Wall Jump (32x32).png" id="9_pxkg4"]
+[ext_resource type="Texture2D" uid="uid://c454sfqhq4xhx" path="res://assets/main characters/appearing (96x96).png" id="1_tpa7k"]
+[ext_resource type="Texture2D" uid="uid://srha6hva1n44" path="res://assets/main characters/desappearing (96x96).png" id="2_ihlqd"]
+[ext_resource type="Texture2D" uid="uid://blyr281uesoda" path="res://assets/main characters/virtual guy/double jump (32x32).png" id="3_pfw6k"]
+[ext_resource type="Texture2D" uid="uid://dm2w0cg2h6f18" path="res://assets/main characters/virtual guy/fall (32x32).png" id="4_5yyl0"]
+[ext_resource type="Texture2D" uid="uid://kjc5nadks4xc" path="res://assets/main characters/virtual guy/hit (32x32).png" id="5_bfs75"]
+[ext_resource type="Texture2D" uid="uid://7fxk3mctckd4" path="res://assets/main characters/virtual guy/idle (32x32).png" id="6_6w2sy"]
+[ext_resource type="Texture2D" uid="uid://deb5j4rqje20r" path="res://assets/main characters/virtual guy/jump (32x32).png" id="7_5oarf"]
+[ext_resource type="Texture2D" uid="uid://dbenac5ta30k" path="res://assets/main characters/virtual guy/run (32x32).png" id="8_exgrg"]
+[ext_resource type="Texture2D" uid="uid://bkpayof2wa3h2" path="res://assets/main characters/virtual guy/wall jump (32x32).png" id="9_pxkg4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5e3gq"]
 atlas = ExtResource("1_tpa7k")

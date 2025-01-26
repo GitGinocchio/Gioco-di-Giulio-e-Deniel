@@ -1,14 +1,14 @@
 [gd_resource type="SpriteFrames" load_steps=67 format=3 uid="uid://dfegmjfgvtj3e"]
 
-[ext_resource type="Texture2D" uid="uid://c454sfqhq4xhx" path="res://assets/Main Characters/Appearing (96x96).png" id="1_6rb0u"]
-[ext_resource type="Texture2D" uid="uid://srha6hva1n44" path="res://assets/Main Characters/Desappearing (96x96).png" id="2_myquu"]
-[ext_resource type="Texture2D" uid="uid://3hhjhj5j05br" path="res://assets/Main Characters/Pink Man/Double Jump (32x32).png" id="3_8la3k"]
-[ext_resource type="Texture2D" uid="uid://c7w70ie4dlg4j" path="res://assets/Main Characters/Pink Man/Fall (32x32).png" id="4_6day5"]
-[ext_resource type="Texture2D" uid="uid://hd4gdsk4kdpu" path="res://assets/Main Characters/Pink Man/Hit (32x32).png" id="5_8reeu"]
-[ext_resource type="Texture2D" uid="uid://ctfb6ar2e0gds" path="res://assets/Main Characters/Pink Man/Idle (32x32).png" id="6_a6q6f"]
-[ext_resource type="Texture2D" uid="uid://dwkn13cgkypml" path="res://assets/Main Characters/Pink Man/Jump (32x32).png" id="7_s5xse"]
-[ext_resource type="Texture2D" uid="uid://jlotcoibbkut" path="res://assets/Main Characters/Pink Man/Run (32x32).png" id="8_fiog1"]
-[ext_resource type="Texture2D" uid="uid://bx03d8aqfb0ec" path="res://assets/Main Characters/Pink Man/Wall Jump (32x32).png" id="9_8b1so"]
+[ext_resource type="Texture2D" uid="uid://c454sfqhq4xhx" path="res://assets/main characters/appearing (96x96).png" id="1_6rb0u"]
+[ext_resource type="Texture2D" uid="uid://srha6hva1n44" path="res://assets/main characters/desappearing (96x96).png" id="2_myquu"]
+[ext_resource type="Texture2D" uid="uid://3hhjhj5j05br" path="res://assets/main characters/pink man/double jump (32x32).png" id="3_8la3k"]
+[ext_resource type="Texture2D" uid="uid://c7w70ie4dlg4j" path="res://assets/main characters/pink man/fall (32x32).png" id="4_6day5"]
+[ext_resource type="Texture2D" uid="uid://hd4gdsk4kdpu" path="res://assets/main characters/pink man/hit (32x32).png" id="5_8reeu"]
+[ext_resource type="Texture2D" uid="uid://ctfb6ar2e0gds" path="res://assets/main characters/pink man/idle (32x32).png" id="6_a6q6f"]
+[ext_resource type="Texture2D" uid="uid://dwkn13cgkypml" path="res://assets/main characters/pink man/jump (32x32).png" id="7_s5xse"]
+[ext_resource type="Texture2D" uid="uid://jlotcoibbkut" path="res://assets/main characters/pink man/run (32x32).png" id="8_fiog1"]
+[ext_resource type="Texture2D" uid="uid://bx03d8aqfb0ec" path="res://assets/main characters/pink man/wall jump (32x32).png" id="9_8b1so"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_5e3gq"]
 atlas = ExtResource("1_6rb0u")

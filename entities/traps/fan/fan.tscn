@@ -1,9 +1,9 @@
 [gd_scene load_steps=17 format=3 uid="uid://bjuuf3xbsrk8f"]
 
-[ext_resource type="Script" path="res://scripts/Fan.gd" id="1_bcb1h"]
-[ext_resource type="Texture2D" uid="uid://jep33i1yyl2f" path="res://assets/Traps/Fan/Off.png" id="1_gc6k1"]
-[ext_resource type="Texture2D" uid="uid://j4ijygp2stcg" path="res://assets/Traps/Fan/On (24x8).png" id="2_d7vh8"]
-[ext_resource type="Texture2D" uid="uid://d4ha024dxygwe" path="res://assets/Other/Dust Particle.png" id="3_g0i2r"]
+[ext_resource type="Script" path="res://entities/traps/fan/fan.gd" id="1_bcb1h"]
+[ext_resource type="Texture2D" uid="uid://jep33i1yyl2f" path="res://assets/traps/fan/off.png" id="1_gc6k1"]
+[ext_resource type="Texture2D" uid="uid://j4ijygp2stcg" path="res://assets/traps/fan/on (24x8).png" id="2_d7vh8"]
+[ext_resource type="Texture2D" uid="uid://d4ha024dxygwe" path="res://assets/other/dust particle.png" id="3_g0i2r"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oav0h"]
 atlas = ExtResource("2_d7vh8")

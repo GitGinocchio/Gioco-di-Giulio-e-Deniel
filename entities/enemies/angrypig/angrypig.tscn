@@ -1,6 +1,6 @@
 [gd_scene load_steps=68 format=3 uid="uid://clnfvaftln1r2"]
 
-[ext_resource type="Script" path="res://scripts/angry_pig.gd" id="1_amcbs"]
+[ext_resource type="Script" path="res://entities/enemies/angrypig/angrypig.gd" id="1_amcbs"]
 [ext_resource type="Texture2D" uid="uid://dcbiacyllm7mj" path="res://assets/enemies/angrypig/hit 1 (36x30).png" id="1_wlym2"]
 [ext_resource type="Texture2D" uid="uid://tqbhb3bncf0f" path="res://assets/enemies/angrypig/hit 2 (36x30).png" id="2_7xlol"]
 [ext_resource type="Texture2D" uid="uid://srha6hva1n44" path="res://assets/main characters/desappearing (96x96).png" id="2_x3xvg"]
@@ -503,7 +503,7 @@ script = ExtResource("1_amcbs")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_0esj8")
-animation = &"walk"
+animation = &"desappearing"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
